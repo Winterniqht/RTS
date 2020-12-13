@@ -28,11 +28,6 @@ public class PlayerUnits : MonoBehaviour
         }
     }
 
-    void Start()
-    {
-        unitMove = GameObject.FindWithTag("UnitBase").GetComponent<UnitMove>();
-    }
-
     void Update()
     {
         if(Input.GetKeyDown("5"))
